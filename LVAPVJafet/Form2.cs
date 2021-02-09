@@ -10,20 +10,14 @@ using System.Windows.Forms;
 
 namespace LVAPVJafet
 {
-    public partial class Form1 : Form
+    public partial class Frm2 : Form
     {
-        public Form1()
+        public Frm2()
         {
             InitializeComponent();
         }
 
-        private void bttAbrirfrm2_Click(object sender, EventArgs e)
-        {
-            Frm2 frm2 = new Frm2();
-            frm2.Show();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
+        private void bttCerrar_Click(object sender, EventArgs e)
         {
             this.Close();
         }
