@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace LVAPVJafet
 {
-    public partial class Frm2 : Form
+    public partial class frmregistro : Form
     {
-        public Frm2()
+        public frmregistro()
         {
             InitializeComponent();
         }
@@ -20,6 +20,18 @@ namespace LVAPVJafet
         private void bttCerrar_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bttInicio_Click(object sender, EventArgs e)
+        {
+            frmbusquedadeanimales frmbusquedadeanimales = new frmbusquedadeanimales();
+            frmbusquedadeanimales.Show();
+
         }
     }
 }
