@@ -32,13 +32,21 @@ namespace LVAPVJafet
             this.lbladresse = new System.Windows.Forms.Label();
             this.txtAdress = new System.Windows.Forms.TextBox();
             this.lblspaceoptiob = new System.Windows.Forms.Label();
-            this.txtSapce = new System.Windows.Forms.ListBox();
             this.lblEmail = new System.Windows.Forms.Label();
             this.txtName = new System.Windows.Forms.TextBox();
             this.lblName = new System.Windows.Forms.Label();
             this.txtemail = new System.Windows.Forms.TextBox();
             this.lblPhoneNumber = new System.Windows.Forms.Label();
             this.txtPhoneNumber = new System.Windows.Forms.TextBox();
+            this.lblwhydoyouwanttoadopt = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.lbldoyouhaveotherpets = new System.Windows.Forms.Label();
+            this.rbttYes = new System.Windows.Forms.RadioButton();
+            this.rbttNo = new System.Windows.Forms.RadioButton();
+            this.lblHowmanydoyouhave = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.ckbSpace = new System.Windows.Forms.CheckedListBox();
+            this.bttSearch = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbladresse
@@ -66,22 +74,13 @@ namespace LVAPVJafet
             this.lblspaceoptiob.Name = "lblspaceoptiob";
             this.lblspaceoptiob.Size = new System.Drawing.Size(64, 24);
             this.lblspaceoptiob.TabIndex = 2;
-            this.lblspaceoptiob.Text = "Sapce";
-            // 
-            // txtSapce
-            // 
-            this.txtSapce.FormattingEnabled = true;
-            this.txtSapce.Location = new System.Drawing.Point(440, 22);
-            this.txtSapce.Name = "txtSapce";
-            this.txtSapce.Size = new System.Drawing.Size(155, 30);
-            this.txtSapce.TabIndex = 3;
-            this.txtSapce.SelectedIndexChanged += new System.EventHandler(this.lst_SelectedIndexChanged);
+            this.lblspaceoptiob.Text = "Space";
             // 
             // lblEmail
             // 
             this.lblEmail.AutoSize = true;
             this.lblEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEmail.Location = new System.Drawing.Point(382, 72);
+            this.lblEmail.Location = new System.Drawing.Point(382, 119);
             this.lblEmail.Name = "lblEmail";
             this.lblEmail.Size = new System.Drawing.Size(61, 24);
             this.lblEmail.TabIndex = 4;
@@ -107,7 +106,7 @@ namespace LVAPVJafet
             // 
             // txtemail
             // 
-            this.txtemail.Location = new System.Drawing.Point(440, 71);
+            this.txtemail.Location = new System.Drawing.Point(441, 119);
             this.txtemail.Name = "txtemail";
             this.txtemail.Size = new System.Drawing.Size(155, 20);
             this.txtemail.TabIndex = 7;
@@ -129,19 +128,118 @@ namespace LVAPVJafet
             this.txtPhoneNumber.Size = new System.Drawing.Size(201, 20);
             this.txtPhoneNumber.TabIndex = 9;
             // 
+            // lblwhydoyouwanttoadopt
+            // 
+            this.lblwhydoyouwanttoadopt.AutoSize = true;
+            this.lblwhydoyouwanttoadopt.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblwhydoyouwanttoadopt.Location = new System.Drawing.Point(12, 167);
+            this.lblwhydoyouwanttoadopt.Name = "lblwhydoyouwanttoadopt";
+            this.lblwhydoyouwanttoadopt.Size = new System.Drawing.Size(238, 22);
+            this.lblwhydoyouwanttoadopt.TabIndex = 10;
+            this.lblwhydoyouwanttoadopt.Text = "Why do you want to adopt?";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(260, 171);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(485, 20);
+            this.textBox1.TabIndex = 11;
+            // 
+            // lbldoyouhaveotherpets
+            // 
+            this.lbldoyouhaveotherpets.AutoSize = true;
+            this.lbldoyouhaveotherpets.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbldoyouhaveotherpets.Location = new System.Drawing.Point(13, 223);
+            this.lbldoyouhaveotherpets.Name = "lbldoyouhaveotherpets";
+            this.lbldoyouhaveotherpets.Size = new System.Drawing.Size(214, 24);
+            this.lbldoyouhaveotherpets.TabIndex = 12;
+            this.lbldoyouhaveotherpets.Text = "Do you have other pets?";
+            // 
+            // rbttYes
+            // 
+            this.rbttYes.AutoSize = true;
+            this.rbttYes.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbttYes.Location = new System.Drawing.Point(249, 223);
+            this.rbttYes.Name = "rbttYes";
+            this.rbttYes.Size = new System.Drawing.Size(59, 26);
+            this.rbttYes.TabIndex = 14;
+            this.rbttYes.TabStop = true;
+            this.rbttYes.Text = "Yes\r\n";
+            this.rbttYes.UseVisualStyleBackColor = true;
+            // 
+            // rbttNo
+            // 
+            this.rbttNo.AutoSize = true;
+            this.rbttNo.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbttNo.Location = new System.Drawing.Point(324, 223);
+            this.rbttNo.Name = "rbttNo";
+            this.rbttNo.Size = new System.Drawing.Size(52, 26);
+            this.rbttNo.TabIndex = 15;
+            this.rbttNo.TabStop = true;
+            this.rbttNo.Text = "No";
+            this.rbttNo.UseVisualStyleBackColor = true;
+            // 
+            // lblHowmanydoyouhave
+            // 
+            this.lblHowmanydoyouhave.AutoSize = true;
+            this.lblHowmanydoyouhave.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHowmanydoyouhave.Location = new System.Drawing.Point(12, 265);
+            this.lblHowmanydoyouhave.Name = "lblHowmanydoyouhave";
+            this.lblHowmanydoyouhave.Size = new System.Drawing.Size(423, 22);
+            this.lblHowmanydoyouhave.TabIndex = 16;
+            this.lblHowmanydoyouhave.Text = "*If your answer was yes, How many do you have?";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(441, 265);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(106, 20);
+            this.textBox2.TabIndex = 17;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            // 
+            // ckbSpace
+            // 
+            this.ckbSpace.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ckbSpace.FormattingEnabled = true;
+            this.ckbSpace.Items.AddRange(new object[] {
+            "Large",
+            "Average",
+            "Small"});
+            this.ckbSpace.Location = new System.Drawing.Point(449, 22);
+            this.ckbSpace.Name = "ckbSpace";
+            this.ckbSpace.Size = new System.Drawing.Size(102, 67);
+            this.ckbSpace.TabIndex = 18;
+            // 
+            // bttSearch
+            // 
+            this.bttSearch.Location = new System.Drawing.Point(651, 377);
+            this.bttSearch.Name = "bttSearch";
+            this.bttSearch.Size = new System.Drawing.Size(119, 44);
+            this.bttSearch.TabIndex = 19;
+            this.bttSearch.Text = "Search";
+            this.bttSearch.UseVisualStyleBackColor = true;
+            // 
             // frmAdopt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightPink;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.bttSearch);
+            this.Controls.Add(this.ckbSpace);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.lblHowmanydoyouhave);
+            this.Controls.Add(this.rbttNo);
+            this.Controls.Add(this.rbttYes);
+            this.Controls.Add(this.lbldoyouhaveotherpets);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.lblwhydoyouwanttoadopt);
             this.Controls.Add(this.txtPhoneNumber);
             this.Controls.Add(this.lblPhoneNumber);
             this.Controls.Add(this.txtemail);
             this.Controls.Add(this.lblName);
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.lblEmail);
-            this.Controls.Add(this.txtSapce);
             this.Controls.Add(this.lblspaceoptiob);
             this.Controls.Add(this.txtAdress);
             this.Controls.Add(this.lbladresse);
@@ -157,12 +255,20 @@ namespace LVAPVJafet
         private System.Windows.Forms.Label lbladresse;
         private System.Windows.Forms.TextBox txtAdress;
         private System.Windows.Forms.Label lblspaceoptiob;
-        private System.Windows.Forms.ListBox txtSapce;
         private System.Windows.Forms.Label lblEmail;
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.TextBox txtemail;
         private System.Windows.Forms.Label lblPhoneNumber;
         private System.Windows.Forms.TextBox txtPhoneNumber;
+        private System.Windows.Forms.Label lblwhydoyouwanttoadopt;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label lbldoyouhaveotherpets;
+        private System.Windows.Forms.RadioButton rbttYes;
+        private System.Windows.Forms.RadioButton rbttNo;
+        private System.Windows.Forms.Label lblHowmanydoyouhave;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.CheckedListBox ckbSpace;
+        private System.Windows.Forms.Button bttSearch;
     }
 }
