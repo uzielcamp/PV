@@ -29,20 +29,21 @@ namespace LVAPVJafet
         /// </summary>
         private void InitializeComponent()
         {
-            this.bttAdopt = new System.Windows.Forms.Button();
+            this.bttStartingscreen = new System.Windows.Forms.Button();
             this.bttsearch = new System.Windows.Forms.Button();
             this.lblquestion = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // bttAdopt
+            // bttStartingscreen
             // 
-            this.bttAdopt.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bttAdopt.Location = new System.Drawing.Point(103, 225);
-            this.bttAdopt.Name = "bttAdopt";
-            this.bttAdopt.Size = new System.Drawing.Size(207, 100);
-            this.bttAdopt.TabIndex = 2;
-            this.bttAdopt.Text = "Adopt";
-            this.bttAdopt.UseVisualStyleBackColor = true;
+            this.bttStartingscreen.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttStartingscreen.Location = new System.Drawing.Point(103, 225);
+            this.bttStartingscreen.Name = "bttStartingscreen";
+            this.bttStartingscreen.Size = new System.Drawing.Size(207, 100);
+            this.bttStartingscreen.TabIndex = 2;
+            this.bttStartingscreen.Text = "Adopt";
+            this.bttStartingscreen.UseVisualStyleBackColor = true;
+            this.bttStartingscreen.Click += new System.EventHandler(this.bttAdopt_Click);
             // 
             // bttsearch
             // 
@@ -72,7 +73,7 @@ namespace LVAPVJafet
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.lblquestion);
             this.Controls.Add(this.bttsearch);
-            this.Controls.Add(this.bttAdopt);
+            this.Controls.Add(this.bttStartingscreen);
             this.Name = "frmstartingscreen";
             this.Text = "Starting screen";
             this.ResumeLayout(false);
@@ -82,7 +83,7 @@ namespace LVAPVJafet
 
         #endregion
 
-        private System.Windows.Forms.Button bttAdopt;
+        private System.Windows.Forms.Button bttStartingscreen;
         private System.Windows.Forms.Button bttsearch;
         private System.Windows.Forms.Label lblquestion;
     }

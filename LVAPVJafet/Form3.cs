@@ -16,5 +16,12 @@ namespace LVAPVJafet
         {
             InitializeComponent();
         }
+
+        private void bttAdopt_Click(object sender, EventArgs e)
+        {
+            frmAdopt frmAdopt = new frmAdopt();
+            frmAdopt.Show();
+
+        }
     }
 }

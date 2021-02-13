@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace LVAPVJafet
 {
-    public partial class frmadopt : Form
+    public partial class frmAdopt : Form
     {
-        public frmadopt()
+        public frmAdopt()
         {
             InitializeComponent();
+        }
+
+        private void lst_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
