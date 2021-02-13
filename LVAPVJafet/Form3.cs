@@ -23,5 +23,17 @@ namespace LVAPVJafet
             frmAdopt.Show();
 
         }
+
+        private void frmstartingscreen_Load(object sender, EventArgs e)
+        {
+       
+        }
+
+        private void bttsearch_Click(object sender, EventArgs e)
+        {
+            FrmSearch FrmSearch = new FrmSearch();
+            FrmSearch.Show();
+
+        }
     }
 }

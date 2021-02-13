@@ -25,7 +25,8 @@ namespace LVAPVJafet
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Close();
+            frmstartingscreen frmstartingscreen = new frmstartingscreen();
+            frmstartingscreen.Show(); 
         }
 
         private void label1_Click(object sender, EventArgs e)

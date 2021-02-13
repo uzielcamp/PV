@@ -10,24 +10,19 @@ using System.Windows.Forms;
 
 namespace LVAPVJafet
 {
-    public partial class FrmSearch : Form
+    public partial class FrmSearchResults : Form
     {
-        public FrmSearch()
+        public FrmSearchResults()
         {
             InitializeComponent();
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void FrmSerachResults_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void txbPetname_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void FrmSearch_Load(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }

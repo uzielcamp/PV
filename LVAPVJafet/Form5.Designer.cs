@@ -34,7 +34,6 @@ namespace LVAPVJafet
             this.lblCharacteristic = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.lblspecies = new System.Windows.Forms.Label();
-            this.ckbspecies = new System.Windows.Forms.CheckedListBox();
             this.ckbCharacteristc = new System.Windows.Forms.CheckedListBox();
             this.lblSize = new System.Windows.Forms.Label();
             this.lblAge = new System.Windows.Forms.Label();
@@ -42,6 +41,8 @@ namespace LVAPVJafet
             this.lblColor = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.bttSearch = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
             // lblPetName
@@ -60,6 +61,7 @@ namespace LVAPVJafet
             this.txbPetname.Name = "txbPetname";
             this.txbPetname.Size = new System.Drawing.Size(226, 20);
             this.txbPetname.TabIndex = 1;
+            this.txbPetname.TextChanged += new System.EventHandler(this.txbPetname_TextChanged);
             // 
             // lblCharacteristic
             // 
@@ -87,25 +89,6 @@ namespace LVAPVJafet
             this.lblspecies.Size = new System.Drawing.Size(80, 22);
             this.lblspecies.TabIndex = 4;
             this.lblspecies.Text = "Species";
-            // 
-            // ckbspecies
-            // 
-            this.ckbspecies.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ckbspecies.FormattingEnabled = true;
-            this.ckbspecies.Items.AddRange(new object[] {
-            "Dog",
-            "Cat",
-            "Rabbit",
-            "Birds",
-            "Snake",
-            "Spiders",
-            "Iguana",
-            "Pig",
-            "Others"});
-            this.ckbspecies.Location = new System.Drawing.Point(99, 114);
-            this.ckbspecies.Name = "ckbspecies";
-            this.ckbspecies.Size = new System.Drawing.Size(88, 157);
-            this.ckbspecies.TabIndex = 5;
             // 
             // ckbCharacteristc
             // 
@@ -167,12 +150,37 @@ namespace LVAPVJafet
             // bttSearch
             // 
             this.bttSearch.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bttSearch.Location = new System.Drawing.Point(650, 367);
+            this.bttSearch.Location = new System.Drawing.Point(343, 304);
             this.bttSearch.Name = "bttSearch";
             this.bttSearch.Size = new System.Drawing.Size(122, 57);
             this.bttSearch.TabIndex = 13;
             this.bttSearch.Text = "Search";
             this.bttSearch.UseVisualStyleBackColor = true;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Dog",
+            "Cat",
+            "Rabbit",
+            "Birds",
+            "Snake",
+            "Spiders",
+            "Iguana",
+            "Pig",
+            "Others"});
+            this.comboBox1.Location = new System.Drawing.Point(99, 115);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(175, 21);
+            this.comboBox1.TabIndex = 14;
+            // 
+            // progressBar1
+            // 
+            this.progressBar1.Location = new System.Drawing.Point(212, 399);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(422, 25);
+            this.progressBar1.TabIndex = 15;
             // 
             // FrmSearch
             // 
@@ -180,6 +188,8 @@ namespace LVAPVJafet
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.progressBar1);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.bttSearch);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.lblColor);
@@ -187,7 +197,6 @@ namespace LVAPVJafet
             this.Controls.Add(this.lblAge);
             this.Controls.Add(this.lblSize);
             this.Controls.Add(this.ckbCharacteristc);
-            this.Controls.Add(this.ckbspecies);
             this.Controls.Add(this.lblspecies);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lblCharacteristic);
@@ -195,6 +204,7 @@ namespace LVAPVJafet
             this.Controls.Add(this.lblPetName);
             this.Name = "FrmSearch";
             this.Text = "Search";
+            this.Load += new System.EventHandler(this.FrmSearch_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -207,7 +217,6 @@ namespace LVAPVJafet
         private System.Windows.Forms.Label lblCharacteristic;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label lblspecies;
-        private System.Windows.Forms.CheckedListBox ckbspecies;
         private System.Windows.Forms.CheckedListBox ckbCharacteristc;
         private System.Windows.Forms.Label lblSize;
         private System.Windows.Forms.Label lblAge;
@@ -215,5 +224,7 @@ namespace LVAPVJafet
         private System.Windows.Forms.Label lblColor;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button bttSearch;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ProgressBar progressBar1;
     }
 }

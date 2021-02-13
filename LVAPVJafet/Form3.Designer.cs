@@ -54,6 +54,7 @@ namespace LVAPVJafet
             this.bttsearch.TabIndex = 3;
             this.bttsearch.Text = "Search";
             this.bttsearch.UseVisualStyleBackColor = true;
+            this.bttsearch.Click += new System.EventHandler(this.bttsearch_Click);
             // 
             // lblquestion
             // 
@@ -76,6 +77,7 @@ namespace LVAPVJafet
             this.Controls.Add(this.bttStartingscreen);
             this.Name = "frmstartingscreen";
             this.Text = "Starting screen";
+            this.Load += new System.EventHandler(this.frmstartingscreen_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
