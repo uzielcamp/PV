@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace LVAPVJafet
 {
-    public partial class frmSearchResults : Form
+    public partial class frmAdoptionRequest : Form
     {
-        public frmSearchResults()
+        public frmAdoptionRequest()
         {
             InitializeComponent();
-        }
-
-        private void FrmSerachResults_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

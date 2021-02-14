@@ -42,7 +42,6 @@ namespace LVAPVJafet
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.bttSearch = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
             // lblPetName
@@ -92,7 +91,7 @@ namespace LVAPVJafet
             // 
             // ckbCharacteristc
             // 
-            this.ckbCharacteristc.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ckbCharacteristc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ckbCharacteristc.FormattingEnabled = true;
             this.ckbCharacteristc.Items.AddRange(new object[] {
             "Big",
@@ -156,6 +155,7 @@ namespace LVAPVJafet
             this.bttSearch.TabIndex = 13;
             this.bttSearch.Text = "Search";
             this.bttSearch.UseVisualStyleBackColor = true;
+            this.bttSearch.Click += new System.EventHandler(this.bttSearch_Click);
             // 
             // comboBox1
             // 
@@ -175,20 +175,12 @@ namespace LVAPVJafet
             this.comboBox1.Size = new System.Drawing.Size(175, 21);
             this.comboBox1.TabIndex = 14;
             // 
-            // progressBar1
-            // 
-            this.progressBar1.Location = new System.Drawing.Point(212, 399);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(422, 25);
-            this.progressBar1.TabIndex = 15;
-            // 
             // FrmSearch
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.bttSearch);
             this.Controls.Add(this.textBox2);
@@ -225,6 +217,5 @@ namespace LVAPVJafet
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button bttSearch;
         private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ProgressBar progressBar1;
     }
 }

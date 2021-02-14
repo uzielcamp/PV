@@ -1,7 +1,7 @@
 ﻿
 namespace LVAPVJafet
 {
-    partial class FrmAdoptionResults
+    partial class frmAdoptionResults
     {
         /// <summary>
         /// Required designer variable.
@@ -175,6 +175,7 @@ namespace LVAPVJafet
             this.bttAdoptDg.TabIndex = 13;
             this.bttAdoptDg.Text = "Adopt";
             this.bttAdoptDg.UseVisualStyleBackColor = true;
+            this.bttAdoptDg.Click += new System.EventHandler(this.bttAdoptDg_Click);
             // 
             // bttAdoptB
             // 
@@ -184,6 +185,7 @@ namespace LVAPVJafet
             this.bttAdoptB.TabIndex = 14;
             this.bttAdoptB.Text = "Adopt";
             this.bttAdoptB.UseVisualStyleBackColor = true;
+            this.bttAdoptB.Click += new System.EventHandler(this.bttAdoptB_Click);
             // 
             // bttAdoptC
             // 
@@ -193,6 +195,7 @@ namespace LVAPVJafet
             this.bttAdoptC.TabIndex = 15;
             this.bttAdoptC.Text = "Adopt";
             this.bttAdoptC.UseVisualStyleBackColor = true;
+            this.bttAdoptC.Click += new System.EventHandler(this.bttAdoptC_Click);
             // 
             // bttAdoptR
             // 
@@ -202,6 +205,7 @@ namespace LVAPVJafet
             this.bttAdoptR.TabIndex = 16;
             this.bttAdoptR.Text = "Adopt";
             this.bttAdoptR.UseVisualStyleBackColor = true;
+            this.bttAdoptR.Click += new System.EventHandler(this.bttAdoptR_Click);
             // 
             // bttAdoptI
             // 
@@ -211,8 +215,9 @@ namespace LVAPVJafet
             this.bttAdoptI.TabIndex = 17;
             this.bttAdoptI.Text = "Adopt";
             this.bttAdoptI.UseVisualStyleBackColor = true;
+            this.bttAdoptI.Click += new System.EventHandler(this.bttAdoptI_Click);
             // 
-            // FrmAdoptionResults
+            // frmAdoptionResults
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -236,7 +241,7 @@ namespace LVAPVJafet
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textDog);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "FrmAdoptionResults";
+            this.Name = "frmAdoptionResults";
             this.Text = "Adoption Results";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();

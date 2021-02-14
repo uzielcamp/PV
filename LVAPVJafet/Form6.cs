@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace LVAPVJafet
 {
-    public partial class FrmAdoptionResults : Form
+    public partial class frmAdoptionResults : Form
     {
-        public FrmAdoptionResults()
+        public frmAdoptionResults()
         {
             InitializeComponent();
         }
@@ -29,7 +29,38 @@ namespace LVAPVJafet
 
         private void button1_Click(object sender, EventArgs e)
         {
+            frmAdoptionRequest frmAdoptionRequest = new frmAdoptionRequest();
+            frmAdoptionRequest.Show();
+        }
 
+        private void bttAdoptC_Click(object sender, EventArgs e)
+        {
+            frmAdoptionRequest frmAdoptionRequest = new frmAdoptionRequest();
+            frmAdoptionRequest.Show();
+        }
+
+        private void bttAdoptDg_Click(object sender, EventArgs e)
+        {
+            frmAdoptionRequest frmAdoptionRequest = new frmAdoptionRequest();
+            frmAdoptionRequest.Show();
+        }
+
+        private void bttAdoptR_Click(object sender, EventArgs e)
+        {
+            frmAdoptionRequest frmAdoptionRequest = new frmAdoptionRequest();
+            frmAdoptionRequest.Show();
+        }
+
+        private void bttAdoptB_Click(object sender, EventArgs e)
+        {
+            frmAdoptionRequest frmAdoptionRequest = new frmAdoptionRequest();
+            frmAdoptionRequest.Show();
+        }
+
+        private void bttAdoptI_Click(object sender, EventArgs e)
+        {
+            frmAdoptionRequest frmAdoptionRequest = new frmAdoptionRequest();
+            frmAdoptionRequest.Show();
         }
     }
 }

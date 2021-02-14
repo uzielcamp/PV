@@ -31,5 +31,11 @@ namespace LVAPVJafet
         {
 
         }
+
+        private void bttSearch_Click(object sender, EventArgs e)
+        {
+            frmSearchResults frmSearchResults = new frmSearchResults();
+            frmSearchResults.Show();
+        }
     }
 }

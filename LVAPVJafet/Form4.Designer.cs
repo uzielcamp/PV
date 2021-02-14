@@ -218,6 +218,7 @@ namespace LVAPVJafet
             this.bttSearch.TabIndex = 19;
             this.bttSearch.Text = "Search";
             this.bttSearch.UseVisualStyleBackColor = true;
+            this.bttSearch.Click += new System.EventHandler(this.bttSearch_Click);
             // 
             // frmAdopt
             // 

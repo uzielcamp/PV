@@ -1,7 +1,7 @@
 ﻿
 namespace LVAPVJafet
 {
-    partial class FrmSearchResults
+    partial class frmSearchResults
     {
         /// <summary>
         /// Required designer variable.
@@ -81,7 +81,7 @@ namespace LVAPVJafet
             this.lblWeFoundYourAnimal2.TabIndex = 3;
             this.lblWeFoundYourAnimal2.Text = "We found your animal";
             // 
-            // FrmSearchResults
+            // frmSearchResults
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -91,7 +91,7 @@ namespace LVAPVJafet
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.lblWeFoundYourAnimal);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "FrmSearchResults";
+            this.Name = "frmSearchResults";
             this.Text = "Search Results";
             this.Load += new System.EventHandler(this.FrmSerachResults_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
