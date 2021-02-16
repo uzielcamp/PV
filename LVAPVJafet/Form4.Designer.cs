@@ -82,9 +82,9 @@ namespace LVAPVJafet
             this.lblEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEmail.Location = new System.Drawing.Point(382, 119);
             this.lblEmail.Name = "lblEmail";
-            this.lblEmail.Size = new System.Drawing.Size(61, 24);
+            this.lblEmail.Size = new System.Drawing.Size(63, 24);
             this.lblEmail.TabIndex = 4;
-            this.lblEmail.Text = "e-Mail";
+            this.lblEmail.Text = "E-Mail";
             this.lblEmail.Click += new System.EventHandler(this.lbl_Click);
             // 
             // txtName
@@ -106,7 +106,7 @@ namespace LVAPVJafet
             // 
             // txtemail
             // 
-            this.txtemail.Location = new System.Drawing.Point(441, 119);
+            this.txtemail.Location = new System.Drawing.Point(449, 119);
             this.txtemail.Name = "txtemail";
             this.txtemail.Size = new System.Drawing.Size(155, 20);
             this.txtemail.TabIndex = 7;

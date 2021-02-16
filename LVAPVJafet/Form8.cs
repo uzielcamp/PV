@@ -16,5 +16,30 @@ namespace LVAPVJafet
         {
             InitializeComponent();
         }
+
+        private void frmAdoptionRequest_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
+        {
+
+        }
+
+        private void lblPickUpDay_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void progressBar1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bttSave_Click(object sender, EventArgs e)
+        {
+            prgSave.Value=prgSave.Value;
+        }
     }
 }

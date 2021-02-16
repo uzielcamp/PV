@@ -149,9 +149,9 @@ namespace LVAPVJafet
             // bttSearch
             // 
             this.bttSearch.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bttSearch.Location = new System.Drawing.Point(343, 304);
+            this.bttSearch.Location = new System.Drawing.Point(352, 337);
             this.bttSearch.Name = "bttSearch";
-            this.bttSearch.Size = new System.Drawing.Size(122, 57);
+            this.bttSearch.Size = new System.Drawing.Size(167, 76);
             this.bttSearch.TabIndex = 13;
             this.bttSearch.Text = "Search";
             this.bttSearch.UseVisualStyleBackColor = true;

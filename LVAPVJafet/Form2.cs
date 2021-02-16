@@ -33,5 +33,10 @@ namespace LVAPVJafet
             frmbusquedadeanimales.Show();
 
         }
+
+        private void lblemergency_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

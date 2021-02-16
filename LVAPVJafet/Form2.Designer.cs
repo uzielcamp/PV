@@ -70,7 +70,7 @@ namespace LVAPVJafet
             // 
             this.lblname.AutoSize = true;
             this.lblname.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblname.Location = new System.Drawing.Point(12, 18);
+            this.lblname.Location = new System.Drawing.Point(7, 18);
             this.lblname.Name = "lblname";
             this.lblname.Size = new System.Drawing.Size(51, 20);
             this.lblname.TabIndex = 1;
@@ -78,7 +78,7 @@ namespace LVAPVJafet
             // 
             // txtname
             // 
-            this.txtname.Location = new System.Drawing.Point(71, 18);
+            this.txtname.Location = new System.Drawing.Point(64, 18);
             this.txtname.Name = "txtname";
             this.txtname.Size = new System.Drawing.Size(131, 20);
             this.txtname.TabIndex = 2;
@@ -87,7 +87,7 @@ namespace LVAPVJafet
             // 
             this.lblsurname.AutoSize = true;
             this.lblsurname.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblsurname.Location = new System.Drawing.Point(208, 18);
+            this.lblsurname.Location = new System.Drawing.Point(201, 18);
             this.lblsurname.Name = "lblsurname";
             this.lblsurname.Size = new System.Drawing.Size(74, 20);
             this.lblsurname.TabIndex = 3;
@@ -95,7 +95,7 @@ namespace LVAPVJafet
             // 
             // txtsurname
             // 
-            this.txtsurname.Location = new System.Drawing.Point(276, 20);
+            this.txtsurname.Location = new System.Drawing.Point(281, 20);
             this.txtsurname.Name = "txtsurname";
             this.txtsurname.Size = new System.Drawing.Size(140, 20);
             this.txtsurname.TabIndex = 4;
@@ -112,7 +112,7 @@ namespace LVAPVJafet
             // 
             // txtPhonenumber
             // 
-            this.txtPhonenumber.Location = new System.Drawing.Point(541, 22);
+            this.txtPhonenumber.Location = new System.Drawing.Point(557, 22);
             this.txtPhonenumber.Name = "txtPhonenumber";
             this.txtPhonenumber.Size = new System.Drawing.Size(140, 20);
             this.txtPhonenumber.TabIndex = 6;
@@ -121,7 +121,7 @@ namespace LVAPVJafet
             // 
             this.lblemail.AutoSize = true;
             this.lblemail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblemail.Location = new System.Drawing.Point(12, 61);
+            this.lblemail.Location = new System.Drawing.Point(7, 61);
             this.lblemail.Name = "lblemail";
             this.lblemail.Size = new System.Drawing.Size(53, 20);
             this.lblemail.TabIndex = 7;
@@ -129,7 +129,7 @@ namespace LVAPVJafet
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(71, 63);
+            this.txtEmail.Location = new System.Drawing.Point(64, 63);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(199, 20);
             this.txtEmail.TabIndex = 8;
@@ -146,7 +146,7 @@ namespace LVAPVJafet
             // 
             // txtHouseNumber
             // 
-            this.txtHouseNumber.Location = new System.Drawing.Point(391, 61);
+            this.txtHouseNumber.Location = new System.Drawing.Point(408, 61);
             this.txtHouseNumber.Name = "txtHouseNumber";
             this.txtHouseNumber.Size = new System.Drawing.Size(144, 20);
             this.txtHouseNumber.TabIndex = 10;
@@ -155,7 +155,7 @@ namespace LVAPVJafet
             // 
             this.lbladress.AutoSize = true;
             this.lbladress.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbladress.Location = new System.Drawing.Point(12, 110);
+            this.lbladress.Location = new System.Drawing.Point(5, 109);
             this.lbladress.Name = "lbladress";
             this.lbladress.Size = new System.Drawing.Size(59, 20);
             this.lbladress.TabIndex = 11;
@@ -163,7 +163,7 @@ namespace LVAPVJafet
             // 
             // txtAdress
             // 
-            this.txtAdress.Location = new System.Drawing.Point(70, 110);
+            this.txtAdress.Location = new System.Drawing.Point(64, 110);
             this.txtAdress.Name = "txtAdress";
             this.txtAdress.Size = new System.Drawing.Size(216, 20);
             this.txtAdress.TabIndex = 12;
@@ -190,7 +190,7 @@ namespace LVAPVJafet
             // 
             this.lblstate.AutoSize = true;
             this.lblstate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblstate.Location = new System.Drawing.Point(12, 152);
+            this.lblstate.Location = new System.Drawing.Point(10, 152);
             this.lblstate.Name = "lblstate";
             this.lblstate.Size = new System.Drawing.Size(48, 20);
             this.lblstate.TabIndex = 15;
@@ -198,7 +198,7 @@ namespace LVAPVJafet
             // 
             // txtstate
             // 
-            this.txtstate.Location = new System.Drawing.Point(58, 152);
+            this.txtstate.Location = new System.Drawing.Point(64, 152);
             this.txtstate.Name = "txtstate";
             this.txtstate.Size = new System.Drawing.Size(167, 20);
             this.txtstate.TabIndex = 16;
@@ -207,11 +207,12 @@ namespace LVAPVJafet
             // 
             this.lblemergency.AutoSize = true;
             this.lblemergency.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblemergency.Location = new System.Drawing.Point(12, 193);
+            this.lblemergency.Location = new System.Drawing.Point(5, 193);
             this.lblemergency.Name = "lblemergency";
             this.lblemergency.Size = new System.Drawing.Size(206, 24);
             this.lblemergency.TabIndex = 17;
             this.lblemergency.Text = "Emergency contact";
+            this.lblemergency.Click += new System.EventHandler(this.lblemergency_Click);
             // 
             // label1
             // 
