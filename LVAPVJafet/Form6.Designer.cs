@@ -57,45 +57,58 @@ namespace LVAPVJafet
             // 
             // textDog
             // 
+            this.textDog.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textDog.Location = new System.Drawing.Point(29, 23);
             this.textDog.Name = "textDog";
-            this.textDog.Size = new System.Drawing.Size(133, 20);
+            this.textDog.Size = new System.Drawing.Size(133, 32);
             this.textDog.TabIndex = 1;
+            this.textDog.Text = "Happy";
             // 
             // textBox2
             // 
+            this.textBox2.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.Location = new System.Drawing.Point(29, 177);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(133, 20);
+            this.textBox2.Size = new System.Drawing.Size(133, 32);
             this.textBox2.TabIndex = 2;
+            this.textBox2.Text = "Stressful";
             // 
             // textBox3
             // 
+            this.textBox3.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox3.Location = new System.Drawing.Point(420, 23);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(133, 20);
+            this.textBox3.Size = new System.Drawing.Size(133, 32);
             this.textBox3.TabIndex = 4;
+            this.textBox3.Text = "Sleepyhead";
             // 
             // textBox4
             // 
+            this.textBox4.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox4.Location = new System.Drawing.Point(420, 177);
+            this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(133, 20);
+            this.textBox4.Size = new System.Drawing.Size(133, 32);
             this.textBox4.TabIndex = 5;
+            this.textBox4.Text = "Eaters";
             // 
             // textBox5
             // 
+            this.textBox5.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox5.Location = new System.Drawing.Point(420, 328);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(133, 20);
+            this.textBox5.Size = new System.Drawing.Size(133, 32);
             this.textBox5.TabIndex = 8;
+            this.textBox5.Text = "Green";
             // 
             // textBox6
             // 
+            this.textBox6.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox6.Location = new System.Drawing.Point(29, 328);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(133, 20);
+            this.textBox6.Size = new System.Drawing.Size(133, 32);
             this.textBox6.TabIndex = 9;
+            this.textBox6.Text = "Noisy";
             // 
             // pictureBox6
             // 
