@@ -39,7 +39,10 @@ namespace LVAPVJafet
 
         private void bttSave_Click(object sender, EventArgs e)
         {
-            prgSave.Value=prgSave.Value;
+            if (prgSave.Value < 100)
+                prgSave.Value = prgSave.Value + 10;
+            else
+                prgSave.Value = prgSave.Value - 100;
         }
     }
 }
