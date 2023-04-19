@@ -60,8 +60,8 @@ namespace LVAPVJafet
             // 
             // bttGuardar
             // 
-            this.bttGuardar.Location = new System.Drawing.Point(877, 415);
-            this.bttGuardar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bttGuardar.Location = new System.Drawing.Point(873, 436);
+            this.bttGuardar.Margin = new System.Windows.Forms.Padding(4);
             this.bttGuardar.Name = "bttGuardar";
             this.bttGuardar.Size = new System.Drawing.Size(152, 75);
             this.bttGuardar.TabIndex = 0;
@@ -83,7 +83,7 @@ namespace LVAPVJafet
             // txtname
             // 
             this.txtname.Location = new System.Drawing.Point(85, 22);
-            this.txtname.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtname.Margin = new System.Windows.Forms.Padding(4);
             this.txtname.Name = "txtname";
             this.txtname.Size = new System.Drawing.Size(173, 22);
             this.txtname.TabIndex = 2;
@@ -102,7 +102,7 @@ namespace LVAPVJafet
             // txtsurname
             // 
             this.txtsurname.Location = new System.Drawing.Point(375, 25);
-            this.txtsurname.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtsurname.Margin = new System.Windows.Forms.Padding(4);
             this.txtsurname.Name = "txtsurname";
             this.txtsurname.Size = new System.Drawing.Size(185, 22);
             this.txtsurname.TabIndex = 4;
@@ -121,7 +121,7 @@ namespace LVAPVJafet
             // txtPhonenumber
             // 
             this.txtPhonenumber.Location = new System.Drawing.Point(743, 27);
-            this.txtPhonenumber.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPhonenumber.Margin = new System.Windows.Forms.Padding(4);
             this.txtPhonenumber.Name = "txtPhonenumber";
             this.txtPhonenumber.Size = new System.Drawing.Size(185, 22);
             this.txtPhonenumber.TabIndex = 6;
@@ -140,7 +140,7 @@ namespace LVAPVJafet
             // txtEmail
             // 
             this.txtEmail.Location = new System.Drawing.Point(85, 78);
-            this.txtEmail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtEmail.Margin = new System.Windows.Forms.Padding(4);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(264, 22);
             this.txtEmail.TabIndex = 8;
@@ -159,7 +159,7 @@ namespace LVAPVJafet
             // txtHouseNumber
             // 
             this.txtHouseNumber.Location = new System.Drawing.Point(544, 75);
-            this.txtHouseNumber.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtHouseNumber.Margin = new System.Windows.Forms.Padding(4);
             this.txtHouseNumber.Name = "txtHouseNumber";
             this.txtHouseNumber.Size = new System.Drawing.Size(191, 22);
             this.txtHouseNumber.TabIndex = 10;
@@ -178,7 +178,7 @@ namespace LVAPVJafet
             // txtAdress
             // 
             this.txtAdress.Location = new System.Drawing.Point(85, 135);
-            this.txtAdress.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtAdress.Margin = new System.Windows.Forms.Padding(4);
             this.txtAdress.Name = "txtAdress";
             this.txtAdress.Size = new System.Drawing.Size(287, 22);
             this.txtAdress.TabIndex = 12;
@@ -198,7 +198,7 @@ namespace LVAPVJafet
             // txtPostalCode
             // 
             this.txtPostalCode.Location = new System.Drawing.Point(531, 137);
-            this.txtPostalCode.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPostalCode.Margin = new System.Windows.Forms.Padding(4);
             this.txtPostalCode.Name = "txtPostalCode";
             this.txtPostalCode.Size = new System.Drawing.Size(191, 22);
             this.txtPostalCode.TabIndex = 14;
@@ -217,7 +217,7 @@ namespace LVAPVJafet
             // txtstate
             // 
             this.txtstate.Location = new System.Drawing.Point(85, 187);
-            this.txtstate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtstate.Margin = new System.Windows.Forms.Padding(4);
             this.txtstate.Name = "txtstate";
             this.txtstate.Size = new System.Drawing.Size(221, 22);
             this.txtstate.TabIndex = 16;
@@ -229,7 +229,7 @@ namespace LVAPVJafet
             this.lblemergency.Location = new System.Drawing.Point(7, 238);
             this.lblemergency.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblemergency.Name = "lblemergency";
-            this.lblemergency.Size = new System.Drawing.Size(269, 32);
+            this.lblemergency.Size = new System.Drawing.Size(268, 32);
             this.lblemergency.TabIndex = 17;
             this.lblemergency.Text = "Emergency contact";
             this.lblemergency.Click += new System.EventHandler(this.lblemergency_Click);
@@ -248,7 +248,7 @@ namespace LVAPVJafet
             // txtName2
             // 
             this.txtName2.Location = new System.Drawing.Point(77, 282);
-            this.txtName2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtName2.Margin = new System.Windows.Forms.Padding(4);
             this.txtName2.Name = "txtName2";
             this.txtName2.Size = new System.Drawing.Size(173, 22);
             this.txtName2.TabIndex = 19;
@@ -267,7 +267,7 @@ namespace LVAPVJafet
             // txtPhoneNumber2
             // 
             this.txtPhoneNumber2.Location = new System.Drawing.Point(427, 284);
-            this.txtPhoneNumber2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPhoneNumber2.Margin = new System.Windows.Forms.Padding(4);
             this.txtPhoneNumber2.Name = "txtPhoneNumber2";
             this.txtPhoneNumber2.Size = new System.Drawing.Size(185, 22);
             this.txtPhoneNumber2.TabIndex = 21;
@@ -275,18 +275,18 @@ namespace LVAPVJafet
             // pictureBox1
             // 
             this.pictureBox1.Image = global::LVAPVJafet.Properties.Resources.hqdefault;
-            this.pictureBox1.Location = new System.Drawing.Point(368, 348);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(409, 329);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(305, 176);
+            this.pictureBox1.Size = new System.Drawing.Size(381, 212);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 22;
             this.pictureBox1.TabStop = false;
             // 
             // bttInicio
             // 
-            this.bttInicio.Location = new System.Drawing.Point(56, 415);
-            this.bttInicio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bttInicio.Location = new System.Drawing.Point(18, 427);
+            this.bttInicio.Margin = new System.Windows.Forms.Padding(4);
             this.bttInicio.Name = "bttInicio";
             this.bttInicio.Size = new System.Drawing.Size(152, 75);
             this.bttInicio.TabIndex = 23;
@@ -346,7 +346,7 @@ namespace LVAPVJafet
             this.Controls.Add(this.txtname);
             this.Controls.Add(this.lblname);
             this.Controls.Add(this.bttGuardar);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmregistro";
             this.Text = "Resgistro";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
